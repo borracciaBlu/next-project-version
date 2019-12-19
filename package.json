@@ -1,0 +1,33 @@
+{
+  "name": "next-project-version",
+  "version": "0.0.0",
+  "description": "Help to calculate the next version of your project in cli",
+  "main": "index.js",
+  "bin": {
+    "next-project-version": "./cli.js"
+  },
+  "scripts": {
+    "lint": "eslint cli.js index.js"
+  },
+  "keywords": [
+    "project",
+    "next",
+    "version",
+    "node",
+    "npm",
+    "pkg",
+    "package",
+    "package.json",
+    "cli"
+  ],
+  "author": "Marco Buttini <marco.asdman@gmail.com> (https://adropincalm.com)",
+  "license": "MIT",
+  "dependencies": {
+    "meow": "^6.0.0",
+    "read-pkg": "^5.2.0",
+    "semver": "^7.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  }
+}
